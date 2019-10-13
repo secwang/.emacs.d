@@ -1,0 +1,379 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Oct 13 11:35:38 2019
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23970 39818 875969 0) (desktop . "208") "secwang@secwang.local" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Sarasa Mono CL-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "Black") (background-color . "White") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (fullscreen) (display . "secwang.local") (environment "KMVAR_jsonLog=/var/folders/37/3fy66clj37d268n32wsfm8400000gn/T/Keyboard-Maestro-Script-2349CC8A-AABA-46C2-AEBA-B0832FBFADA7:4182:4239: execution error: Error on line 126: Error: Application can't be found. (-2700)" "SECURITYSESSIONID=186a6" "SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS=/Users/secwang/Library/WebKit/Databases" "DISPLAY=/private/tmp/com.apple.launchd.0RYDsCts58/org.macosforge.xquartz:0" "KMINSTANCE=DEC175C7-BE79-4ABC-A1F2-AF13AA077498:BAE851AD-1F9B-4B85-9D0F-58CBB02334CF" "LOGNAME=secwang" "SHLVL=2" "HOME=/Users/secwang" "KMVAR_KMUrl=https://www.merriam-webster.com/dictionary/rumors," "XPC_SERVICE_NAME=0" "XPC_FLAGS=0x0" "LANG=en_US.UTF-8" "PWD=/" "LaunchInstanceID=5D93D2A1-C91A-4C23-9140-C79EBE517560" "_=/usr/local/bin/emacsclient" "PATH=/usr/bin:/bin:/usr/sbin:/sbin" "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0" "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.oBgtr01Z7u/Listeners" "COMMAND_MODE=unix2003" "USER=secwang" "LC_ALL=en_US.UTF-8" "TMPDIR=/var/folders/37/3fy66clj37d268n32wsfm8400000gn/T/" "SHELL=/usr/local/bin/fish") (display-type . color) (background-mode . light) (cursor-color . "black") (frameset--id . "B747-E6AC-976C-4A33") (frameset--mini t . t) (height . 47) (width . 90) (modeline . t) (unsplittable) (left . 1732) (top . 520) (icon-name) (visibility . t) (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 11) (min-height-ignore . 2) (min-width-ignore . 11) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 60) (min-pixel-width . 66) (min-pixel-height-ignore . 30) (min-pixel-width-ignore . 66) (min-pixel-height-safe . 15) (min-pixel-width-safe . 12)) leaf (pixel-width . 571) (pixel-height . 690) (total-width . 95) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (buffer "20190101" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 3 t nil 0 t) (vscroll . 0) (dedicated) (point . 7695) (start . 1457))) (((minibuffer . t) (cursor-color . "white") (tool-bar-lines . 0) (vertical-scroll-bars) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (display-type . mono) (background-mode . dark) (font . "tty") (height . 9) (width . 10) (modeline . t) (unsplittable) (menu-bar-lines . 1) (top . 520) (left . 1732) (frameset--id . "15F2-9AC8-CC3D-9ACE") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 5) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 8) (total-width . 10) (total-height . 8) (normal-height . 1.0) (normal-width . 1.0) (buffer "20190101" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 7685) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("tools" "ledger-" "ledger-mo" "org-jou" "diary" "expand" "dia" "da"))
+(setq register-alist nil)
+(setq file-name-history '("/Users/secwang/workspace/org/home.org" "/Users/secwang/.emacs" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/Desktop/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/Music/music/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/a.txt" "/Users/secwang/workspace/org/data/" "/Users/secwang/workspace/org/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/timelog.ledger" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/.emacs.d/" "/Users/secwang/Desktop/a.txt" "/sshx:bot/etc/hosts" "/sshx:" "/sshx:bot/pushover" "/sshx:bot/" "/ssh:bot:/" "~/.emacs.d/bookmarks" "~/workspace/org/home.org" "~/workspace/org/tradelog.org" "~/workspace/org/opportunity.org" "~/workspace/org/dashboard.html" "~/workspace/org/dashboard.org" "~/workspace/org/desktop.org" "~/workspace/org/playground/play.org" "~/desktoptmp/An Elementary Introduction to the Wolfram Language [Chinese Version, ‘ÖÐ‘ÎÄ‘°æ].pdf" "~/.emacs.d/elpa/counsel-20190809.1548/counsel-autoloads.el" "~/.emacs.d/elpa/swiper-20190801.1110/swiper-autoloads.el" "~/.emacs.d/elpa/dash-20190814.2006/dash-autoloads.el" "~/.emacs.d/elpa/ivy-20190809.1551/ivy-autoloads.el" "~/.emacs.d/elpa/magit-20190817.427/magit-autoloads.el" "~/.emacs.d/elpa/transient-20190812.1336/transient-autoloads.el" "~/workspace/org/agenda.org" "~/desktoptmp/‘µ±‘ÏÂ‘µÄ‘ìø‘ÐÞ.pdf" "~/.emacs.d/elpa/dired-launch-20180607.1841/dired-launch-autoloads.el" "~/desktoptmp/Concrete Mathematics 2e.pdf" "~/workspace/org/routine.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/journal/20190101"
+  "20190101"
+  'org-journal-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  7695
+  '(7561 nil)
+  nil
+  nil
+  '((buffer-display-time 23970 39785 642895 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (7576 7576 7561 7561 7561 7407 7063 6932 3161 3116 3116 2995 2995 2874 2757 7561))))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/home.org"
+  "home.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  13
+  '(30 nil)
+  nil
+  nil
+  '((buffer-display-time 23970 39785 642894 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (69 247 759 200 531 17 759 16 680 605 605 317 1 759 759 418))))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/journal/2019-10-12/_2019-10-12_23-23-05.png"
+  "_2019-10-12_23-23-05.png"
+  'fundamental-mode
+  '(visual-line-mode linum-mode ivy-mode image-minor-mode)
+  8
+  '(8 nil)
+  nil
+  nil
+  '((buffer-display-time 23970 38965 500471 828000) (buffer-file-coding-system . no-conversion) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/journal/2019-10-12/Screen%20Shot%202019-10-12%20at%2010.44.33%20PM_2019-10-12_23-08-36.png"
+  "Screen%20Shot%202019-10-12%20at%2010.44.33%20PM_2019-10-12_23-08-36.png"
+  'fundamental-mode
+  '(visual-line-mode linum-mode ivy-mode image-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23970 38213 836048 828000) (buffer-file-coding-system . no-conversion) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/timelog.ledger"
+  "timelog.ledger"
+  'ledger-mode
+  '(visual-line-mode linum-mode ivy-mode)
+  426
+  '(459 nil)
+  nil
+  nil
+  '((buffer-display-time 23970 37877 892826 633000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (430 407 350 327 329 349 264 35 198 162 141 139 1 139 139 139))))
+
+(desktop-create-buffer 208
+  nil
+  "Desktop"
+  'dired-mode
+  '(visual-line-mode linum-mode ivy-mode dired-launch-mode)
+  433
+  '(nil nil)
+  t
+  '("/Users/secwang/Desktop/")
+  '((buffer-display-time 23970 23641 4860 12000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/Desktop/Screen Shot 2019-10-12 at 10.44.33 PM.png"
+  "Screen Shot 2019-10-12 at 10.44.33 PM.png"
+  'fundamental-mode
+  '(visual-line-mode linum-mode ivy-mode image-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23970 23201 261754 12000) (buffer-file-coding-system . no-conversion) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/.emacs.d/diary"
+  "diary"
+  'diary-mode
+  '(visual-line-mode linum-mode ivy-mode)
+  1224
+  '(1224 nil)
+  nil
+  nil
+  '((buffer-display-time 23970 19083 857362 16000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (646 220 1 1 1 1 253 289 406 556 646 646 815 872 851 955))))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/tools.org"
+  "tools.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  226
+  '(124 nil)
+  nil
+  nil
+  '((buffer-display-time 23966 24655 694017 779000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (123 116 20 228 228 228 20 124 228))))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/tradelog.org"
+  "tradelog.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  1
+  '(1014 nil)
+  nil
+  nil
+  '((buffer-display-time 23966 13013 367791 90000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40))))
+
+(desktop-create-buffer 208
+  nil
+  "*info*"
+  'Info-mode
+  '(visual-line-mode linum-mode ivy-mode)
+  1138
+  '(1224143 nil)
+  t
+  '("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Top" ((history ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Calendar/Diary" 1224143) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Calendar/Diary" 1224143) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Calendar/Diary" 1224058) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Top" 29308) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Calendar/Diary" 1224058) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Displaying the Diary" 1260148) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Diary" 1257066) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Calendar/Diary" 1225609) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Calendar/Diary" 1224143) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Format of Diary File" 1258372) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Diary" 1257013) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Date Formats" 1263249) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Diary" 1257147) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Special Diary Entries" 1268663) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Diary" 1257268) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Adding to Diary" 1265929) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Diary" 1257209) ("/usr/local/Cellar/emacs-plus/26.3/share/info/emacs/emacs" "Calendar/Diary" 1225609))))
+  '((tab-width . 8) (buffer-display-time 23966 11730 661367 90000) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t) (truncate-lines))
+  '((mark-ring (1257147 1263249 1257013 1224058))))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/routine.org"
+  "routine.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  854
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23966 10816 848521 90000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/agenda.org"
+  "agenda.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  1253
+  '(1174 nil)
+  nil
+  nil
+  '((buffer-display-time 23965 62784 935823 90000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/timelog.org"
+  "timelog.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  1633
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23964 56401 139234 675000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/deft/‘¶Ô‘³å‘»ù‘½ð.org"
+  "‘¶Ô‘³å‘»ù‘½ð.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  2
+  '(2 nil)
+  nil
+  nil
+  '((buffer-display-time 23964 4141 703969 708000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (870 873 873))))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/bookreread.org"
+  "bookreread.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23961 13223 714465 324000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/thinking.org"
+  "thinking.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23961 13161 543166 324000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/wiki/wyckoff.org"
+  "wyckoff.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  2196
+  '(2161 nil)
+  nil
+  nil
+  '((buffer-display-time 23948 12685 188280 93000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (1890 2160 2160 1778 1780 1803 1733 1691 1691 1595 1595 1512 1490 2160 1778 2196))))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/wiki.org"
+  "wiki.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23945 44645 842086 623000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (1 1))))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/notice.org"
+  "notice.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23945 35696 525449 603000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/writing.org"
+  "writing.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  10
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23945 9577 916451 603000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/Pictures/org_images/tradelog/_2019-09-16_12-36-55.png"
+  "_2019-09-16_12-36-55.png"
+  'fundamental-mode
+  '(visual-line-mode linum-mode ivy-mode image-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23943 8718 88330 72000) (buffer-file-coding-system . no-conversion) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/Pictures/org_images/tradelog/_2019-09-16_12-24-33.png"
+  "_2019-09-16_12-24-33.png"
+  'fundamental-mode
+  '(visual-line-mode linum-mode ivy-mode image-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23943 7682 789078 72000) (buffer-file-coding-system . no-conversion) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/Pictures/org_images/‘½»‘Ò×‘Ìå‘»á/_2019-09-16_11-34-44.png"
+  "_2019-09-16_11-34-44.png"
+  'fundamental-mode
+  '(visual-line-mode linum-mode ivy-mode image-minor-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23943 6367 311278 175000) (buffer-file-coding-system . no-conversion) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/desktop.org"
+  "desktop.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  42
+  '(42 t)
+  nil
+  nil
+  '((buffer-display-time 23943 5167 694006 289000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42))))
+
+(desktop-create-buffer 208
+  nil
+  "desktoptmp"
+  'dired-mode
+  '(visual-line-mode linum-mode ivy-mode dired-launch-mode)
+  1483
+  '(nil nil)
+  t
+  '("/Users/secwang/desktoptmp/")
+  '((buffer-display-time 23943 4764 673062 868000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/deft/‘²»‘¶Ô‘³Æ‘Ë¼‘¿¼‘´ó‘¸Ù.org"
+  "‘²»‘¶Ô‘³Æ‘Ë¼‘¿¼‘´ó‘¸Ù.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  15
+  '(15 nil)
+  nil
+  nil
+  '((buffer-display-time 23943 4524 570627 860000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/dashboard.org"
+  "dashboard.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  651
+  '(634 nil)
+  nil
+  nil
+  '((buffer-display-time 23943 3681 272053 999000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/deft/‘ÆÚ‘È¨‘±Ê‘¼Ç.org"
+  "‘ÆÚ‘È¨‘±Ê‘¼Ç.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode)
+  20
+  '(109 nil)
+  nil
+  nil
+  '((buffer-display-time 23943 3511 210502 899000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(visual-line-mode linum-mode ivy-mode dired-launch-mode)
+  746
+  '(500 nil)
+  t
+  '("/Users/secwang/.emacs.d/")
+  '((buffer-display-time 23964 8913 116523 81000) (truncate-lines))
+  '((mark-ring nil)))
+
