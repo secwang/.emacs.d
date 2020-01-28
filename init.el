@@ -113,7 +113,8 @@ If OTHER-GREP is not nil, we use the_silver_searcher and grep instead."
     ("~/workspace/org/routine.org" "~/workspace/org/agenda.org")))
  '(package-selected-packages
    (quote
-    (find-file-in-project ledger-mode org-download org-noter centaur-tabs alarm-clock dired-launch pdf-tools emojify magit autopair org-journal howm deft wolfram-mode expand-region cnfonts emms easy-kill org-brain org2ctex ivy))))
+    (colemak-evil evil q-mode find-file-in-project ledger-mode org-download org-noter centaur-tabs alarm-clock dired-launch emojify magit autopair org-journal howm deft wolfram-mode expand-region cnfonts emms easy-kill org-brain org2ctex ivy))))
+    ;;pdf-tools 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -282,7 +283,7 @@ There are two things you can do about this warning:
 (setq org-time-stamp-custom-formats '("<%Y-%m-%d %A>" . "<%Y-%m-%d %A %H:%M>"))
 
 ;;emojify
-(add-hook 'after-init-hook #'global-emojify-mode)
+;;(add-hook 'after-init-hook #'global-emojify-mode)
 
 ;;org image
 (setq org-startup-with-inline-images t)
@@ -313,10 +314,10 @@ There are two things you can do about this warning:
 
 ;; pdf tools 
 ;;brew install homebrew/emacs/pdf-tools
-(setq pdf-info-epdfinfo-program "/usr/local/bin/epdfinfo")
-(add-hook 'pdf-view-mode-hook (lambda() (linum-mode -1)))
-(setq pdf-view-incompatible-modes 'linum-mode)
-(pdf-tools-install)
+;;(setq pdf-info-epdfinfo-program "/usr/local/bin/epdfinfo")
+;;(add-hook 'pdf-view-mode-hook (lambda() (linum-mode -1)))
+;;(setq pdf-view-incompatible-modes 'linum-mode)
+;;(pdf-tools-install)
 
 
 ;;(alarm-clock--turn-autosave-on)
@@ -382,3 +383,7 @@ There are two things you can do about this warning:
 (global-set-key (kbd "C-x t o") 'timeclock-out-safe)
 (global-set-key (kbd "C-x t t") 'timeclock-visit-timelog)
 (global-set-key (kbd "C-x t r") 'timeclock-generate-report)
+
+;; evil
+(require 'evil)
+(evil-mode 1)
