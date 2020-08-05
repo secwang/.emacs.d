@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Jan 28 10:39:55 2020
+;; Created Wed Aug  5 10:29:36 2020
 ;; Desktop file format version 208
 ;; Emacs version 26.3
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24111 40699 34202 0) (desktop . "208") "secwang@secwang.local" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Sarasa Mono CL-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "Black") (background-color . "White") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . mono) (background-mode . dark) (cursor-color . "white") (environment) (modeline . t) (unsplittable) (frameset--id . "2E81-0763-D447-718B") (frameset--mini t . t) (display . "secwang.local") (height . 47) (width . 90) (left . 1732) (top . 520) (icon-name) (visibility . t) (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 60) (min-pixel-width . 60) (min-pixel-height-ignore . 30) (min-pixel-width-ignore . 24) (min-pixel-height-safe . 15) (min-pixel-width-safe . 12)) leaf (pixel-width . 556) (pixel-height . 690) (total-width . 92) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (buffer "home.org" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 17) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (24362 6544 734950 0) (desktop . "208") "secwang@secwang.lan" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Sarasa Mono CL-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "Black") (background-color . "White") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "black") (environment) (modeline . t) (unsplittable) (frameset--id . "1C8A-EA61-DF15-21D4") (frameset--mini t . t) (display . "secwang.lan") (icon-name) (visibility . t) (explicit-name) (tool-bar-position . top) (height . 47) (width . 90) (left . 1732) (top . 520)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 7) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 120) (min-pixel-width . 60) (min-pixel-height-ignore . 60) (min-pixel-width-ignore . 42) (min-pixel-height-safe . 30) (min-pixel-width-safe . 12)) vc (pixel-width . 556) (pixel-height . 690) (total-width . 92) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 556) (pixel-height . 345) (total-width . 92) (total-height . 23) (normal-height . 0.5) (normal-width . 1.0) (buffer "home.org" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 302) (start . 1))) (leaf (last . t) (pixel-width . 556) (pixel-height . 345) (total-width . 92) (total-height . 23) (normal-height . 0.5) (normal-width . 1.0) (buffer "notice.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 15) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -18,51 +18,87 @@
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
+  "/Users/secwang/workspace/org/notice.org"
+  "notice.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
+  15
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24362 6250 734651 0) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
   "/Users/secwang/workspace/org/home.org"
   "home.org"
   'org-mode
   '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
-  17
-  '(28 nil)
+  302
+  '(83 nil)
   nil
   nil
-  '((buffer-display-time 24111 40691 653075 0) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (28 601 601 469 470 467 312 194 751))))
-
-(desktop-create-buffer 208
-  "/Users/secwang/workspace/org/tools.org"
-  "tools.org"
-  'org-mode
-  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
-  228
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 24111 40675 996210 0) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
+  '((buffer-display-time 24362 6250 734651 0) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring (83 17 424 424 254 254 143 83 83 25 25 359 28 601 601 469))))
 
 (desktop-create-buffer 208
   "/Users/secwang/workspace/org/thinking.org"
   "thinking.org"
   'org-mode
   '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
+  427
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24319 14974 312007 113000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/category.org"
+  "category.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
   1
   '(1 nil)
   nil
   nil
-  '((buffer-display-time 24111 40579 919534 0) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24319 14978 7482 113000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/Users/secwang/Desktop/‘Ö¸‘±ê6.TRD.txt"
-  "‘Ö¸‘±ê6.TRD.txt"
-  'text-mode
-  '(visual-line-mode linum-mode ivy-mode undo-tree-mode)
+  "/Users/secwang/workspace/org/wiki/wyckoff.org"
+  "wyckoff.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
   1
-  '(nil nil)
+  '(1 nil)
   nil
   nil
-  '((buffer-display-time 24111 40568 914748 0) (buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24319 14983 378542 113000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/wiki.org"
+  "wiki.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24319 14981 964013 113000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/workspace/org/tools.org"
+  "tools.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
+  18
+  '(18 nil)
+  nil
+  nil
+  '((buffer-display-time 24319 14994 162668 113000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -70,11 +106,11 @@
   "Desktop"
   'dired-mode
   '(visual-line-mode linum-mode ivy-mode dired-launch-mode)
-  684
+  500
   '(nil nil)
   t
   '("/Users/secwang/Desktop/")
-  '((buffer-display-time 24111 40558 899487 0) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24317 56447 127555 516000) (overwrite-mode) (truncate-lines))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -86,7 +122,7 @@
   '(2556 nil)
   nil
   nil
-  '((buffer-display-time 24111 40554 591708 0) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24317 56453 636075 516000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
   '((mark-ring (3404 2471 2471 1581 1581 1581 1508 1508 1578 2470 2470 1781 6262 5810 5795 5466))))
 
 (desktop-create-buffer 208
@@ -98,7 +134,7 @@
   '(2112 nil)
   nil
   nil
-  '((buffer-display-time 24109 63786 130544 756000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24316 14152 222309 272000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
   '((mark-ring (1))))
 
 (desktop-create-buffer 208
@@ -110,7 +146,7 @@
   '(nil nil)
   t
   '("/Users/secwang/q/")
-  '((buffer-display-time 24109 46220 635160 756000) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24315 62132 490631 272000) (overwrite-mode) (truncate-lines))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -122,7 +158,7 @@
   '(3092 nil)
   nil
   nil
-  '((buffer-display-time 24107 37374 942513 106000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24313 53289 539057 622000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
   '((mark-ring (159 2956 769 2826 1 1))))
 
 (desktop-create-buffer 208
@@ -134,7 +170,7 @@
   '(78 nil)
   nil
   nil
-  '((buffer-display-time 24106 51580 27957 106000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24313 1961 870591 622000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
   '((mark-ring (78 4141 2709 2709 1620 4138 2245 2303 1905 2272 2028 2248 1966 1966 2229 1875))))
 
 (desktop-create-buffer 208
@@ -146,7 +182,7 @@
   '(3358 nil)
   nil
   nil
-  '((buffer-display-time 24106 21986 713309 490000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24312 37908 647274 6000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
   '((mark-ring (3342 3016 3328 3327 3136 1570 1450 1328 1355 559 3328 3342 3016 3327 3281 2935))))
 
 (desktop-create-buffer 208
@@ -158,7 +194,7 @@
   '(nil nil)
   t
   '("/Users/secwang/q/playground/")
-  '((buffer-display-time 24105 48573 305599 981000) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24311 64500 933484 497000) (overwrite-mode) (truncate-lines))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -170,6 +206,6 @@
   '(nil nil)
   t
   '("/Users/secwang/")
-  '((buffer-display-time 24105 48568 437593 981000) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24362 6236 650951 0) (overwrite-mode) (truncate-lines))
   '((mark-ring nil)))
 
