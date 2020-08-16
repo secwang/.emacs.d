@@ -1,10 +1,11 @@
 (require 'package)
-(package-initialize)
 (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
+
+
 
 (display-time-mode 1)
 (desktop-save-mode 1)
-(set-cursor-color "#ff4a68") 
+;(set-cursor-color "#ff4a68") 
 (setq-default cursor-type 'bar)
 (blink-cursor-mode -1)
 (global-linum-mode t)
@@ -15,7 +16,7 @@
 (visual-line-mode t)
 (global-visual-line-mode t)
 
-;;(menu-bar-mode -1)
+(menu-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
 
@@ -109,11 +110,9 @@ If OTHER-GREP is not nil, we use the_silver_searcher and grep instead."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(org-agenda-files
-   (quote
-    ("~/workspace/org/routine.org" "~/workspace/org/agenda.org")))
+   '("~/workspace/org/routine.org" "~/workspace/org/agenda.org"))
  '(package-selected-packages
-   (quote
-    (colemak-evil evil q-mode find-file-in-project ledger-mode org-download org-noter centaur-tabs alarm-clock dired-launch emojify magit autopair org-journal howm deft wolfram-mode expand-region cnfonts emms easy-kill org-brain org2ctex ivy))))
+   '(use-package org-roam-server org-roam colemak-evil evil q-mode find-file-in-project ledger-mode org-download org-noter centaur-tabs alarm-clock dired-launch emojify magit autopair org-journal howm deft wolfram-mode expand-region cnfonts emms easy-kill org-brain org2ctex ivy)))
     ;;pdf-tools 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -387,3 +386,42 @@ There are two things you can do about this warning:
 ;; evil
 (require 'evil)
 (evil-mode 1)
+
+;; org-roam
+(use-package org-roam
+      :ensure t
+      :hook
+      (after-init . org-roam-mode)
+      :custom
+      (org-roam-directory "/Users/secwang/workspace/org/roam")
+      :bind (:map org-roam-mode-map
+              (("C-c n l" . org-roam)
+               ("C-c n f" . org-roam-find-file)
+               ("C-c n g" . org-roam-graph-show))
+              :map org-mode-map
+              (("C-c n i" . org-roam-insert))
+              (("C-c n I" . org-roam-insert-immediate))))
+
+(use-package org-roam-server
+  :ensure t
+  :config
+  (setq org-roam-server-host "127.0.0.1"
+        org-roam-server-port 8080
+        org-roam-server-authenticate nil
+        org-roam-server-export-inline-images t
+        org-roam-server-serve-files nil
+        org-roam-server-served-file-extensions '("pdf" "mp4" "ogv")
+        org-roam-server-network-poll t
+        org-roam-server-network-arrows nil
+        org-roam-server-network-label-truncate t
+        org-roam-server-network-label-truncate-length 60
+        org-roam-server-network-label-wrap-length 20))
+
+(require 'org-roam-protocol)
+
+
+
+
+
+
+

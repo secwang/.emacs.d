@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Content-Length: 284
+Connection: keep-alive
+Last-Modified: Thu, 30 Apr 2020 08:06:10 GMT
+x-amz-meta-hash: 59a44ed38f2f06025adfef97e027d5a0
+Accept-Ranges: bytes
+Server: AmazonS3
+Date: Wed, 22 Jul 2020 19:45:25 GMT
+ETag: "59a44ed38f2f06025adfef97e027d5a0"
+Cache-Control: max-age=2592000
+X-Cache: Hit from cloudfront
+Via: 1.1 37b615a846dba1c97d39060948e141ec.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT20-C4
+X-Amz-Cf-Id: FD6BiGdx7zpOwEOJgMcRHBUjOpzEi-Ml1u0iVckUg3uq7SpW78B02w==
+Age: 2097620
+
+<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 18h18V0H0v18z" fill="#F0F3FA"/><path fill-rule="evenodd" clip-rule="evenodd" d="M9 5a4 4 0 1 1 0 8 4 4 0 0 1 0-8z" fill="#EF5350"/></svg>

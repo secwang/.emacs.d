@@ -1,10 +1,15 @@
-;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/workspace/org/tradelog.org")
- (front-context-string . "**** 16:13 \n* 交易")
- (rear-context-string . "-10-05 Saturday\n")
- (position . 6376))
+ (filename . "~/workspace/org/roam/20200816203349-emacs.org")
+ (front-context-string . "#+title: emacs\n\n")
+ (rear-context-string)
+ (position . 1))
+("home.org"
+ (filename . "~/workspace/org/home.org")
+ (front-context-string . "\nknowledgebase\nf")
+ (rear-context-string . "/org/notice.org\n")
+ (position . 128))
 )

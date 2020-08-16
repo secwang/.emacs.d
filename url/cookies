@@ -1,0 +1,17 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".rsshub.app"
+  [url-cookie "__cfduid" "d89bf1b0e449eb044ff0001725dc583711596852126" "Mon, 07-Sep-20 02:02:06 GMT" "/" ".rsshub.app" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".twitter.com"
+  [url-cookie "personalization_id" "v1_ykDdfNZ9q6lfSay5UQEYXg==" "Mon Aug 08 02:02:07 2022 GMT" "/" ".twitter.com" t]
+  [url-cookie "guest_id" "v1%3A159685212720366469" "Mon Aug 08 02:02:07 2022 GMT" "/" ".twitter.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

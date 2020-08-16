@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: image/svg+xml
+Content-Length: 361
+Connection: keep-alive
+Date: Sat, 18 Jul 2020 15:40:53 GMT
+Last-Modified: Fri, 06 Sep 2019 09:06:48 GMT
+ETag: "ba86a99d2db90ff9eec2ce901332d51b"
+Cache-Control: max-age=2592000
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 853dab48fd1de187261c15f5b98cd2a0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT20-C4
+X-Amz-Cf-Id: Y6-6USXBaDFZ3wmLLzTm0JpE7j343-iELcV-Tu8mpV0NhlJc5GdMjQ==
+Age: 2457892
+
+<svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"><path fill="#42A5F5" d="M0 0h36v36H0z"/><path d="M24.56 11.64c0 .18-.6 3.83-2.4 5.33C24.57 9.31 17.99 5 17.99 5s-1.02 5.69-3 7.84c-.11-2.45-1.5-3.95-1.5-3.95-1 4.43-4.48 8.26-4.48 11.13C9 25 13 29 17.98 29c4.97 0 8.97-4 8.97-8.98 0-3.59-1.01-6.22-2.39-8.38z" fill="#fff"/></svg>

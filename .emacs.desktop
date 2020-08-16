@@ -1,32 +1,92 @@
-;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Aug  5 10:29:36 2020
+;; Created Sun Aug 16 21:41:01 2020
 ;; Desktop file format version 208
-;; Emacs version 26.3
+;; Emacs version 27.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24362 6544 734950 0) (desktop . "208") "secwang@secwang.lan" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Sarasa Mono CL-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "Black") (background-color . "White") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "black") (environment) (modeline . t) (unsplittable) (frameset--id . "1C8A-EA61-DF15-21D4") (frameset--mini t . t) (display . "secwang.lan") (icon-name) (visibility . t) (explicit-name) (tool-bar-position . top) (height . 47) (width . 90) (left . 1732) (top . 520)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 7) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 120) (min-pixel-width . 60) (min-pixel-height-ignore . 60) (min-pixel-width-ignore . 42) (min-pixel-height-safe . 30) (min-pixel-width-safe . 12)) vc (pixel-width . 556) (pixel-height . 690) (total-width . 92) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 556) (pixel-height . 345) (total-width . 92) (total-height . 23) (normal-height . 0.5) (normal-width . 1.0) (buffer "home.org" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 302) (start . 1))) (leaf (last . t) (pixel-width . 556) (pixel-height . 345) (total-width . 92) (total-height . 23) (normal-height . 0.5) (normal-width . 1.0) (buffer "notice.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 15) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (24377 14189 144947 0) (desktop . "208") "secwang@secwang.lan" nil nil ((((minibuffer . t) (environment) (tty-type . "xterm-256color") (tty . "/dev/ttys001") (height . 23) (width . 80) (left . 1732) (top . 520) (display-type . color) (background-mode . light) (cursor-color . "black") (display . "/private/tmp/com.apple.launchd.X61EoHL1xv/org.macosforge.xquartz:0") (frameset--id . "25A2-A3D1-6D71-F49D") (frameset--mini t) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (modeline . t) (unsplittable) (menu-bar-lines . 1) (tab-bar-lines . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 80) (pixel-height . 21) (total-width . 80) (total-height . 21) (normal-height . 1.0) (normal-width . 1.0) (buffer "roam-file?file=%2FUsers%2Fsecwang%2Fworkspace%2Forg%2Froam%2F20200816203349-emacs.org<Resources>" (selected) (hscroll . 0) (fringes 0 0 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 7) (start . 1))) (((minibuffer . t) (display-type . mono) (background-mode . dark) (cursor-color . "white") (tool-bar-lines . 0) (menu-bar-lines . 1) (vertical-scroll-bars) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (height . 10) (width . 10) (modeline . t) (unsplittable) (tab-bar-lines . 0) (top . 520) (left . 1732) (frameset--id . "11D1-639B-E948-43B0") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 8) (total-width . 10) (total-height . 8) (normal-height . 1.0) (normal-width . 1.0) (buffer "a.txt<.emacs.d>" (selected) (hscroll . 0) (fringes 0 0 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)) (prev-buffers ("roam-file?file=%2FUsers%2Fsecwang%2Fworkspace%2Forg%2Froam%2F20200816203349-emacs.org<Resources>" 1 1) ("a.txt<bin>" 1 1) ("a.tx" 1 1) ("roam-file?file=%2FUsers%2Fsecwang%2Fworkspace%2Forg%2Froam%2F20200816203349-emacs.org<>" 1 1) ("*scratch*" 1 145))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("d"))
-(setq regexp-search-ring '("position" "postinon" "position" "\\<_\\>" "type" "\\<onticker\\>" "get_lask" "\\<depth\\>" "okexn" "\\<last\\>" "\\<first\\>" "get_las" "\\<_\\>" "ask_fun" "to" "ask"))
-(setq register-alist '((48 . "// if[(long_avg_cost - bid1) > drawback;show \"stoploss long\";.okex.ok_close_position[\"long\"]]\n// if[(bid1 - long_avg_cost) > stopprofit;show \"stopprofit long\";.okex.ok_close_position[\"long\"]]\n// if[(ask1 - short_avg_cost ) > drawback;show \"stoploss short\";.okex.ok_close_position[\"short\"]]\n// if[(short_avg_cost - ask1) > stopprofit;show \"stopprofit\";.okex.ok_close_position[\"short\"]]\n")))
-(setq file-name-history '("/Users/secwang/Desktop/home.org" "/Users/secwang/Desktop/" "/Users/secwang/q/okex.q" "/Users/secwang/q/ts.q" "/Users/secwang/q/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/q/oksnippet.q" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/q/playground/ok.q" "/Users/secwang/workspace/org/home.org" "/Users/secwang/q/playground/okex.q" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/q/playground/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/.emacs" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/Music/music/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/a.txt" "/Users/secwang/workspace/org/data/" "/Users/secwang/workspace/org/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/timelog.ledger" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/workspace/org/home.org" "/Users/secwang/.emacs.d/" "/Users/secwang/Desktop/a.txt" "/sshx:bot/etc/hosts" "/sshx:" "/sshx:bot/pushover" "/sshx:bot/" "/ssh:bot:/" "~/.emacs.d/bookmarks" "~/workspace/org/home.org" "~/workspace/org/tradelog.org" "~/workspace/org/opportunity.org" "~/workspace/org/dashboard.html" "~/workspace/org/dashboard.org" "~/workspace/org/desktop.org" "~/workspace/org/playground/play.org" "~/desktoptmp/An Elementary Introduction to the Wolfram Language [Chinese Version, ‘ÖÐ‘ÎÄ‘°æ].pdf" "~/.emacs.d/elpa/counsel-20190809.1548/counsel-autoloads.el" "~/.emacs.d/elpa/swiper-20190801.1110/swiper-autoloads.el" "~/.emacs.d/elpa/dash-20190814.2006/dash-autoloads.el" "~/.emacs.d/elpa/ivy-20190809.1551/ivy-autoloads.el" "~/.emacs.d/elpa/magit-20190817.427/magit-autoloads.el" "~/.emacs.d/elpa/transient-20190812.1336/transient-autoloads.el" "~/workspace/org/agenda.org" "~/desktoptmp/‘µ±‘ÏÂ‘µÄ‘ìø‘ÐÞ.pdf" "~/.emacs.d/elpa/dired-launch-20180607.1841/dired-launch-autoloads.el" "~/desktoptmp/Concrete Mathematics 2e.pdf" "~/workspace/org/routine.org"))
+(setq regexp-search-ring '(#("musi" 0 4 (isearch-case-fold-search nil)) "position" "postinon" "position" "\\<_\\>" "type" "\\<onticker\\>" "get_lask" "\\<depth\\>" "okexn" "\\<last\\>" "\\<first\\>" "get_las" "\\<_\\>" "ask_fun" "to"))
+(setq register-alist '((48 . #("https://app.uniswap.org/#/swap?inputCurrency=0x38a2fdc11f526ddd5a607c1f251c065f40fbf2f7&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\n" 0 144 (yank-handler (evil-yank-line-handler nil t) fontified t face org-link mouse-face highlight keymap (keymap (follow-link . mouse-face) (mouse-3 . org-find-file-at-mouse) (mouse-2 . org-open-at-mouse)) help-echo "LINK: https://app.uniswap.org/#/swap?inputCurrency=0x38a2fdc11f526ddd5a607c1f251c065f40fbf2f7&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2" htmlize-link (:uri "https://app.uniswap.org/#/swap?inputCurrency=0x38a2fdc11f526ddd5a607c1f251c065f40fbf2f7&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2") font-lock-multiline t) 144 145 (yank-handler (evil-yank-line-handler nil t) fontified t rear-nonsticky (mouse-face highlight keymap invisible intangible help-echo org-linked-text htmlize-link) face org-link mouse-face highlight keymap (keymap (follow-link . mouse-face) (mouse-3 . org-find-file-at-mouse) (mouse-2 . org-open-at-mouse)) help-echo "LINK: https://app.uniswap.org/#/swap?inputCurrency=0x38a2fdc11f526ddd5a607c1f251c065f40fbf2f7&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2" htmlize-link (:uri "https://app.uniswap.org/#/swap?inputCurrency=0x38a2fdc11f526ddd5a607c1f251c065f40fbf2f7&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2") font-lock-multiline t) 145 146 (yank-handler (evil-yank-line-handler nil t) fontified t)))))
+(setq file-name-history '("/Users/secwang/bin/a.txt" "/Users/secwang/.emacs.d/a.txt" "/Applications/OrgProtocol.app/Contents/Resources/org-protocol:/roam-file?file=%2FUsers%2Fsecwang%2Fworkspace%2Forg%2Froam%2F20200816203349-emacs.org" "/Users/secwang/bin/a.txt" "/Users/secwang/bin/a.tx" "/Users/secwang/desktop/a.txt" "/Users/secwang/workspace/org/home.org" "//org-protocol:/roam-file?file=%2FUsers%2Fsecwang%2Fworkspace%2Forg%2Froam%2F20200816203349-emacs.org" #("/Users/secwang/workspace/Music/music/" 0 37 (ivy-index 0)) "/Users/secwang/workspace/workspace/x.ses" "/Users/secwang/workspace/workspace/" "/Users/secwang/workspace/" "/Users/secwang/workspace/org/home.org" "/Users/secwang/Music/" "/Users/secwang/workspace/org/a.txt" "/Users/secwang/workspace/a.txt" "/Users/secwang/desktop/a.txt" "/Users/secwang/Desktop/home.org" "/Users/secwang/Desktop/" "/Users/secwang/q/okex.q" "/Users/secwang/q/ts.q" "/Users/secwang/q/" "/Users/secwang/q/oksnippet.q" "/Users/secwang/q/playground/ok.q" "/Users/secwang/q/playground/okex.q" "/Users/secwang/" "/Users/secwang/q/playground/" "/Users/secwang/.emacs" "/Users/secwang/workspace/org/a.txt" "/Users/secwang/workspace/org/data/" "/Users/secwang/workspace/org/" "/Users/secwang/workspace/org/timelog.ledger" "/Users/secwang/.emacs.d/" "/Users/secwang/Desktop/a.txt" "/sshx:bot/etc/hosts" "/sshx:" "/sshx:bot/pushover" "/sshx:bot/" "/ssh:bot:/" "~/.emacs.d/bookmarks" "~/workspace/org/home.org" "~/workspace/org/tradelog.org" "~/workspace/org/opportunity.org" "~/workspace/org/dashboard.html" "~/workspace/org/dashboard.org" "~/workspace/org/desktop.org" "~/workspace/org/playground/play.org" "~/desktoptmp/An Elementary Introduction to the Wolfram Language [Chinese Version, ä¸­æ–‡ç‰ˆ].pdf" "~/.emacs.d/elpa/counsel-20190809.1548/counsel-autoloads.el" "~/.emacs.d/elpa/swiper-20190801.1110/swiper-autoloads.el" "~/.emacs.d/elpa/dash-20190814.2006/dash-autoloads.el" "~/.emacs.d/elpa/ivy-20190809.1551/ivy-autoloads.el" "~/.emacs.d/elpa/magit-20190817.427/magit-autoloads.el" "~/.emacs.d/elpa/transient-20190812.1336/transient-autoloads.el" "~/workspace/org/agenda.org" "~/desktoptmp/å½“ä¸‹çš„ç¦…ä¿®.pdf" "~/.emacs.d/elpa/dired-launch-20180607.1841/dired-launch-autoloads.el" "~/desktoptmp/Concrete Mathematics 2e.pdf" "~/workspace/org/routine.org"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/Users/secwang/workspace/org/notice.org"
-  "notice.org"
+  "/Applications/OrgProtocol.app/Contents/Resources/org-protocol:/roam-file?file=%2FUsers%2Fsecwang%2Fworkspace%2Forg%2Froam%2F20200816203349-emacs.org"
+  "roam-file?file=%2FUsers%2Fsecwang%2Fworkspace%2Forg%2Froam%2F20200816203349-emacs.org"
   'org-mode
-  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
-  15
+  '(visual-line-mode eldoc-mode ivy-mode undo-tree-mode)
+  7
+  '(7 nil)
+  t
+  nil
+  '((buffer-display-time 24377 14188 561173 0) (overwrite-mode) (truncate-lines))
+  '((mark-ring (7 7 1 1 1))))
+
+(desktop-create-buffer 208
+  "/Users/secwang/.emacs.d/a.txt"
+  "a.txt"
+  'text-mode
+  '(visual-line-mode ivy-mode undo-tree-mode)
+  1
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24362 6250 734651 0) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24377 14127 37273 0) (overwrite-mode) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/bin/a.txt"
+  "a.txt"
+  'text-mode
+  '(visual-line-mode linum-mode ivy-mode undo-tree-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24377 13518 554857 0) (overwrite-mode) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/bin/a.tx"
+  "a.tx"
+  'fundamental-mode
+  '(visual-line-mode linum-mode ivy-mode undo-tree-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24377 13509 93113 0) (overwrite-mode) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "//org-protocol:/roam-file?file=%2FUsers%2Fsecwang%2Fworkspace%2Forg%2Froam%2F20200816203349-emacs.org"
+  "roam-file?file=%2FUsers%2Fsecwang%2Fworkspace%2Forg%2Froam%2F20200816203349-emacs.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode ivy-mode undo-tree-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24377 13501 651862 0) (overwrite-mode) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/secwang/desktop/a.txt"
+  "a.txt"
+  'text-mode
+  '(visual-line-mode linum-mode ivy-mode undo-tree-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24377 12961 3149 0) (overwrite-mode) (truncate-lines))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -34,178 +94,10 @@
   "home.org"
   'org-mode
   '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
-  302
-  '(83 nil)
-  nil
-  nil
-  '((buffer-display-time 24362 6250 734651 0) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (83 17 424 424 254 254 143 83 83 25 25 359 28 601 601 469))))
-
-(desktop-create-buffer 208
-  "/Users/secwang/workspace/org/thinking.org"
-  "thinking.org"
-  'org-mode
-  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
-  427
-  '(1 nil)
-  nil
-  nil
-  '((buffer-display-time 24319 14974 312007 113000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/secwang/workspace/org/category.org"
-  "category.org"
-  'org-mode
-  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
   1
   '(1 nil)
   nil
   nil
-  '((buffer-display-time 24319 14978 7482 113000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/secwang/workspace/org/wiki/wyckoff.org"
-  "wyckoff.org"
-  'org-mode
-  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-display-time 24319 14983 378542 113000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/secwang/workspace/org/wiki.org"
-  "wiki.org"
-  'org-mode
-  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((buffer-display-time 24319 14981 964013 113000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/secwang/workspace/org/tools.org"
-  "tools.org"
-  'org-mode
-  '(visual-line-mode eldoc-mode linum-mode ivy-mode undo-tree-mode)
-  18
-  '(18 nil)
-  nil
-  nil
-  '((buffer-display-time 24319 14994 162668 113000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  nil
-  "Desktop"
-  'dired-mode
-  '(visual-line-mode linum-mode ivy-mode dired-launch-mode)
-  500
-  '(nil nil)
-  t
-  '("/Users/secwang/Desktop/")
-  '((buffer-display-time 24317 56447 127555 516000) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/secwang/q/ts.q"
-  "ts.q"
-  'q-mode
-  '(visual-line-mode linum-mode ivy-mode undo-tree-mode)
-  2556
-  '(2556 nil)
-  nil
-  nil
-  '((buffer-display-time 24317 56453 636075 516000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (3404 2471 2471 1581 1581 1581 1508 1508 1578 2470 2470 1781 6262 5810 5795 5466))))
-
-(desktop-create-buffer 208
-  "/Users/secwang/q/okex.q"
-  "okex.q"
-  'q-mode
-  '(visual-line-mode linum-mode ivy-mode undo-tree-mode)
-  2100
-  '(2112 nil)
-  nil
-  nil
-  '((buffer-display-time 24316 14152 222309 272000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (1))))
-
-(desktop-create-buffer 208
-  nil
-  "q"
-  'dired-mode
-  '(visual-line-mode linum-mode ivy-mode dired-launch-mode)
-  594
-  '(nil nil)
-  t
-  '("/Users/secwang/q/")
-  '((buffer-display-time 24315 62132 490631 272000) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/secwang/q/oksnippet.q"
-  "oksnippet.q"
-  'q-mode
-  '(visual-line-mode linum-mode ivy-mode undo-tree-mode)
-  3092
-  '(3092 nil)
-  nil
-  nil
-  '((buffer-display-time 24313 53289 539057 622000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (159 2956 769 2826 1 1))))
-
-(desktop-create-buffer 208
-  "/Users/secwang/q/playground/ok.q"
-  "ok.q"
-  'q-mode
-  '(visual-line-mode linum-mode ivy-mode undo-tree-mode)
-  2049
-  '(78 nil)
-  nil
-  nil
-  '((buffer-display-time 24313 1961 870591 622000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (78 4141 2709 2709 1620 4138 2245 2303 1905 2272 2028 2248 1966 1966 2229 1875))))
-
-(desktop-create-buffer 208
-  "/Users/secwang/q/playground/okex.q"
-  "okex.q"
-  'q-mode
-  '(visual-line-mode linum-mode ivy-mode undo-tree-mode)
-  2935
-  '(3358 nil)
-  nil
-  nil
-  '((buffer-display-time 24312 37908 647274 6000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (3342 3016 3328 3327 3136 1570 1450 1328 1355 559 3328 3342 3016 3327 3281 2935))))
-
-(desktop-create-buffer 208
-  nil
-  "playground"
-  'dired-mode
-  '(visual-line-mode linum-mode ivy-mode dired-launch-mode)
-  477
-  '(nil nil)
-  t
-  '("/Users/secwang/q/playground/")
-  '((buffer-display-time 24311 64500 933484 497000) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  nil
-  "secwang"
-  'dired-mode
-  '(visual-line-mode linum-mode ivy-mode dired-launch-mode)
-  3686
-  '(nil nil)
-  t
-  '("/Users/secwang/")
-  '((buffer-display-time 24362 6236 650951 0) (overwrite-mode) (truncate-lines))
+  '((buffer-display-time 24377 12886 277529 0) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
   '((mark-ring nil)))
 
